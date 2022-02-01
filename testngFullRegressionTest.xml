@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="full regression">
+<groups><run>
+<include name="Regression Test"></include></run></groups>
+  <test thread-count="5" name="Full Regression Test">
+    <classes>
+      <class name="com.vtiger.comcast.organizationtest.CreateOrgnTest"/>
+      <class name="com.vtiger.comcast.contactTest.CreateContactTest"/>
+    </classes>
+  </test> 
+</suite> 
