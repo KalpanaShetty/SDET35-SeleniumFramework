@@ -1,0 +1,17 @@
+{
+  "CompName" : "tyss",
+  "empno" : "3500",
+  "phoneNo" : [ 2222, 4444 ],
+  "empDetails" : [ {
+    "name" : "kalpanaShetty",
+    "empno" : "ty001",
+    "email" : "ks@gmail.com",
+    "phoneNo" : "9999"
+  }, {
+    "name" : "nayanaShetty",
+    "empno" : "ty002",
+    "email" : "ns@gmail.com",
+    "phoneNo" : "9998"
+  } ],
+  "compName" : "tyss"
+}

@@ -13,6 +13,7 @@ public class CreateNewOrganizationPage extends WebDriverUtility {
 	{
 		PageFactory.initElements(driver, this);
 	}
+	
     @FindBy(name="accountname")
 	private WebElement orgNameEdt;
     
@@ -42,7 +43,8 @@ public class CreateNewOrganizationPage extends WebDriverUtility {
      * used to create new org with orgname & industries
      * @param orgName
      */
-    public void createOrg(String orgName,String industries){
+    public void createOrg(String orgName,String industries)
+    {
     	orgNameEdt.sendKeys(orgName);
     	select(industriesLst,industries);
     	saveBtn.click();

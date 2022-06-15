@@ -8,13 +8,16 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.vtiger.comcast.genericUtility.WebDriverUtility;
 
-public class CreateNewContacts extends WebDriverUtility  {
+public class CreateNewContacts extends WebDriverUtility  
+{
 	WebDriver driver;
+	
 	public CreateNewContacts(WebDriver driver)
 	{
 		this.driver=driver;
 		PageFactory.initElements(driver, this);
 	}
+	
 	@FindBy(name="lastname")
 	private WebElement lastNameEdt; 
 	

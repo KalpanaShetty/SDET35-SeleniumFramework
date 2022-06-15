@@ -5,17 +5,24 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class ContactinformationPage {
-	public ContactinformationPage(WebDriver driver){
+public class ContactinformationPage 
+{
+	public ContactinformationPage(WebDriver driver)
+	
+	{
 		PageFactory.initElements(driver, this);
 	}
-	
 	@FindBy(className="dvHeaderText")
 	private WebElement orgHeaderSucMsg;
 	
 	
 	@FindBy(id="mouseArea_Organization Name")
 	private WebElement orgNAmeInfo;
+	
+	@FindBy(xpath="//span[@class='dvHeaderText']")
+    private WebElement succesfullMsg;
+	
+	
 	
      /**
 	 * @return the orgNAmeInfo
@@ -33,9 +40,6 @@ public class ContactinformationPage {
 		return orgHeaderSucMsg;
 	}
 
-	@FindBy(xpath="//span[@class='dvHeaderText']")
-     private WebElement succesfullMsg;
-	
 	
 	
 	/**

@@ -8,7 +8,8 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.vtiger.comcast.genericUtility.WebDriverUtility;
 
-public class HomePage extends WebDriverUtility{
+public class HomePage extends WebDriverUtility
+{
 	
 	WebDriver driver;
 	public HomePage(WebDriver driver)

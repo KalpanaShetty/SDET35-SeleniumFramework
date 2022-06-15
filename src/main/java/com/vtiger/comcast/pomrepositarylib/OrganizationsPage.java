@@ -5,8 +5,10 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class OrganizationsPage {
+public class OrganizationsPage 
+{
 	WebDriver driver;
+	
 	public OrganizationsPage(WebDriver driver)
 	{
 		this.driver=driver;
@@ -16,14 +18,16 @@ public class OrganizationsPage {
    /**
 	 * @return the searchEdt
 	 */
-	public WebElement getSearchEdt() {
+	public WebElement getSearchEdt() 
+	{
 		return searchEdt;
 	}
 
 	/**
 	 * @return the searchBtn
 	 */
-	public WebElement getSearchBtn() {
+	public WebElement getSearchBtn()
+	{
 		return searchBtn;
 	}
 

@@ -10,6 +10,7 @@
     </classes>
   </test> <!-- Test -->
   
+  
    <test thread-count="2" name="TestRunner-Firefox" parallel="tests">
    <parameter name="browser" value="firefox"></parameter>
     <classes>

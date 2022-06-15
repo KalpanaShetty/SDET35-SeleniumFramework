@@ -9,7 +9,7 @@
   <test  name="Test">
     <classes>
       <class name="com.vtiger.comcast.organizationtest.CreateOrgnTest"/>
-      <class name="com.vtiger.comcast.contactTest.CreateContactTest"/>
+       <class name="com.vtiger.comcast.contactTest.CreateContactTest"/>
     </classes>
   </test> 
 </suite> 
