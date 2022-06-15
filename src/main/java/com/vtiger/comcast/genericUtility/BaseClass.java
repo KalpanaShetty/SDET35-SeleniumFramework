@@ -15,7 +15,7 @@ import com.vtiger.comcast.pomrepositarylib.LoginPage;
 
 public class BaseClass {
 	
-	
+	//Baseclass is updated
 	
 	public WebDriver driver = null;
 	// create Objects
